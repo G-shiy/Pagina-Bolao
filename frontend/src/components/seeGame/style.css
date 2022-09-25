@@ -14,8 +14,8 @@
     flex-flow: column wrap;
     background-color: #08ad43;
     border: 2px solid #407e28;
-    border-radius: 8px;
-    box-shadow: 2px 2px 1px #89f35f, -2px -2px 1px #89f35f;
+    border-radius:2px;
+    box-shadow: 2px 0px 1px #89f35f, -2px -2px 1px #89f35f;
 }
 
 .Box-Title{
@@ -27,12 +27,44 @@
 
 .Box-Game-Footer{
     width: 30.35rem;
-    margin-top: 2px;
+    margin-top: 0px;
     display: flex;
     align-content: center;
     align-items: center;
     flex-flow: column wrap;
-    border-radius: 8px;
+    border-radius: 2px;
     background-color: #c6b0ba;
-    box-shadow: 2px 2px 1px #82737a, -2px -2px 1px #82737a;
+    box-shadow: 2px 2px 1px #72656b, 2px 0px 1px #72656b;
+}
+
+.Box-Game-Item{
+    color: #94ff69;
+    text-shadow: 1px 1px black;
+}
+
+.Number-Box{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    padding:40px 0 40px 0;
+    margin: 4rem 18rem 4rem 18rem;
+    border: 2px solid white;
+}
+
+p{
+    margin: 0;
+}
+
+.Number-Box-Numbers{
+    margin: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.Number-Box-Title{
+    font-size: 42px;
+    color:#eaffd3;
+    text-shadow: 2px 2px 2px #76e24b;
 }
