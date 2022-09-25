@@ -1,0 +1,38 @@
+.Box-Game{
+    margin-top: 8rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.Box-Game-Header{
+    width: 30rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: #08ad43;
+    border: 2px solid #407e28;
+    border-radius: 8px;
+    box-shadow: 2px 2px 1px #89f35f, -2px -2px 1px #89f35f;
+}
+
+.Box-Title{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #76e24b;
+}   
+
+.Box-Game-Footer{
+    width: 30.35rem;
+    margin-top: 2px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    border-radius: 8px;
+    background-color: #c6b0ba;
+    box-shadow: 2px 2px 1px #82737a, -2px -2px 1px #82737a;
+}
