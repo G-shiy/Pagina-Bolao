@@ -54,6 +54,13 @@ const Games = () => {
           <Item key={index} {...item} />
         ))}
       </ul>
+      <br></br><br></br>
+      <h2 className="game-week">Jogos da Finalizados</h2>
+      <ul className="game-card">
+        {jogos.map((item, index) => (
+          <Item key={index} {...item} />
+        ))}
+      </ul>
     </>
   );
 };

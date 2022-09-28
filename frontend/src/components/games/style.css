@@ -1,7 +1,7 @@
 .game-week{
     margin-right: 35px;
     text-shadow: 1px 1px 2px #c7f6b5;
-    margin-top: 120px;
+    margin-top: 12px;
     font-size: 25px;
     color:#53dc5c;
     display: flex;
@@ -15,4 +15,7 @@
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
+}
+body{
+    margin-bottom: 30px;
 }
